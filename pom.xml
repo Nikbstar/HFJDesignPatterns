@@ -25,6 +25,12 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <!-- jsoup HTML parser library @ https://jsoup.org/ -->
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.11.3</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -43,8 +49,8 @@
     </build>
 
     <modules>
-        <module>01_intro</module>
-
+        <module>01_intro(strategy)</module>
+        <module>02_observer</module>
     </modules>
 
 </project>
